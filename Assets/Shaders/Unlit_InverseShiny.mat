@@ -7,8 +7,8 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Unlit_FlagShader
-  m_Shader: {fileID: 4800000, guid: 5a88cf794e713cb4e97adc6d3b159eaf, type: 3}
+  m_Name: Unlit_InverseShiny
+  m_Shader: {fileID: 4800000, guid: 46938092cfbfe6248b3c1e88bd529dc6, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
   m_ValidKeywords: []
@@ -29,11 +29,9 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
-    - _FlagSpeed: 2
-    - _WaveAmplitude: 0.5
-    - _WaveAmplitude2: 1
-    - _WaveFrequency: 3.87
-    - _WaveFrequency2: 1
-    m_Colors: []
+    - _LineWidth: 0.26
+    - _ScanSpeed: 0.2
+    m_Colors:
+    - _Tint: {r: 1, g: 0.504717, b: 0.504717, a: 1}
   m_BuildTextureStacks: []
   m_AllowLocking: 1
